@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+ font-family: 'Poppins', sans-serif; 
+}
+.fas fa-envelope-square, fa-phone-square-alt, fa-map-marked-alt{
+  
+}
+.fab fa-facebook-square, fa-linkedin, fa-twitter-square{
+
+} 
+.primary a{
+      text-decoration: none;
+      color: black;
+      
+      font-style: italic;
+    }
+    
+    .h3{
+      text-decoration-color: firebrick;
+    }
+    .header-top-image{
+      /* height: 250px; */
+      /* margin-bottom: 130px; */
+    }  
+    /* .pr-image{
+      margin-bottom: -20% !important;
+      width: 250px;
+      height: 300px;
+      margin-top: 15%;
+      margin-left: 20%;
+    }  */
+     .img-responsive{
+      height: 150px;
+      width: 150px;
+     } 
+ .work{
+   margin-left: -10px;
+ }
+ .work h3{
+   
+  margin-left: -5px;
+   
+ } 
+.bg-color{
+  color: rgb(63, 137, 207);
+}
+/* .row{
+  float: inherit
+  
+} */
+.header-top-image{
+  background-color: dodgerblue;
+  height: 250px;
+}
+.text-primary{
+color: dodgerblue !important;  
+}
+
+@media (min-width: 576px) {
+  .pr-image{
+    margin-bottom: -20% !important;
+    width: 250px;
+    height: 300px;
+    margin-top: 20%;
+    margin-left: 20%;
+  }
+
+}
+@media (min-width: 768px) {
+  
+}
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+ 
+
+}
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1320px;
+  }
+}
